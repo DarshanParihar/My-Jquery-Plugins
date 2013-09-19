@@ -1,0 +1,55 @@
+
+.face-name-wrap {
+	position: absolute;
+	height: auto;
+	width: 230px;
+	left: 10px;
+	top: 10px;
+	z-index: 12;
+	display: block;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.face-box {
+	height: 50px;
+	width: 50px;
+	border: 2px solid #CCC;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	position: relative;
+}
+.face-name-txt {
+	width: 96%;
+	border: 1px solid #CCC;
+	position: relative;
+	padding: 3px;
+	background-color: #FFF;
+	margin-top: 7px;
+}
+.face-name-space {
+	border: 1px solid #CCC;
+	padding: 4px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.face-name-top-arrow {
+	background-image: url(../images/tooltip-arrow.png);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 15px;
+	position: absolute;
+	left: 106px;
+	top: -9px;
+}
+map{
+	position:relative;
+}
